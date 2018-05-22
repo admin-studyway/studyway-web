@@ -1,0 +1,22 @@
+.home {
+  .top-banner {
+    height: 50vh;
+  }
+
+  .category{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .item{
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    .head{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  }
+}
