@@ -3,7 +3,7 @@
     height: 50vh;
   }
   .tech-info {
-    .heading{
+    .heading {
       background-color: #c5c5c5;
       font-size: 20px;
       display: flex;
@@ -21,7 +21,7 @@
       .item {
         margin-right: 15px;
         margin-left: 15px;
-        .tech-img{
+        .tech-img {
 
         }
       }
@@ -54,7 +54,7 @@
     }
   }
   .tech-news {
-    .heading{
+    .heading {
       background-color: #c5c5c5;
       font-size: 20px;
       display: flex;
@@ -83,5 +83,39 @@
         margin-bottom: 6px;
       }
     }
+  }
+  .subscribed-sec {
+    .heading {
+      background-color: #c5c5c5;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 20px;
+    }
+    .subsc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      .left {
+        width: 50%;
+        text-align: center;
+        line-height: 1.5rem;
+        .head{
+          margin-bottom: 10px;
+        }
+      }
+      .right{
+        text-align: center;
+        line-height: 1.5rem;
+        .head{
+          margin-bottom: 10px;
+        }
+      }
+    }
+
   }
 }
