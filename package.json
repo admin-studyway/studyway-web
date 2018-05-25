@@ -6,7 +6,7 @@
     "start": "ng serve",
     "start:prod": "ng serve -c=production",
     "build": "ng build",
-    "build": "ng build -c=production",
+    "build:prod": "ng build -c=production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -48,5 +48,17 @@
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1"
+  },
+  "homepage": "https://github.com/hemchand-studyway/studyway-web#readme",
+  "description": "Study Way Website",
+  "keywords": [
+    "study way",
+    "angular sample",
+    "angular study",
+    "angular project"
+  ],
+  "bugs":{
+    "url" : "https://github.com/hemchand-studyway/studyway-web/issues",
+    "email" : "hemchand@studyway.in"
   }
 }
