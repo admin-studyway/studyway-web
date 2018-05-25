@@ -21,6 +21,8 @@
       .item {
         margin-right: 15px;
         margin-left: 15px;
+        line-height: 1.1rem;
+        word-spacing: 0.2rem;
         .tech-img {
 
         }
@@ -75,6 +77,8 @@
       .item {
         margin-right: 15px;
         margin-left: 15px;
+        line-height: 1.1rem;
+        word-spacing: 0.2rem;
       }
       .head {
         display: flex;
@@ -109,6 +113,7 @@
         }
       }
       .right{
+        width: 50%;
         text-align: center;
         line-height: 1.5rem;
         .head{

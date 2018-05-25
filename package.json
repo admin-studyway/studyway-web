@@ -1,13 +1,17 @@
 {
   "name": "studway",
-  "version": "0.0.0",
+  "version": "0.0.0-beta.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:prod": "ng serve -c=production",
     "build": "ng build",
+    "build": "ng build -c=production",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "preupgrade:cli": "rimraf -rf package-lock.json && rimraf -rf dist",
+    "upgrade:cli": "npm i @angular/cli@latest && rimraf -rf package-lock.json && npm i"
   },
   "private": true,
   "dependencies": {
