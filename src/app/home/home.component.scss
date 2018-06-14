@@ -16,15 +16,16 @@
     .category {
       margin-top: 20px;
       display: flex;
-      align-items: center;
-      justify-content: center;
       .item {
         margin-right: 15px;
         margin-left: 15px;
         line-height: 1.1rem;
         word-spacing: 0.2rem;
+        width: 25%;
         .tech-img {
-
+          height: 15vh;
+          align-items: center;
+          display: flex;
         }
       }
       .head {
@@ -79,6 +80,9 @@
         margin-left: 15px;
         line-height: 1.1rem;
         word-spacing: 0.2rem;
+        .tech-img{
+          height: 15vh;
+        }
       }
       .head {
         display: flex;
